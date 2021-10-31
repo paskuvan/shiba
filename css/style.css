@@ -11,7 +11,7 @@ body {
 
 .title {
     font-weight: 800;
-    font-size: 48px;
+    font-size: 33px;
 }
 
 .paragraph {
@@ -30,4 +30,14 @@ body {
 .logo {
     width: 90px;
     height: auto;
+}
+
+.img-shiba {
+    width: 360px;
+    height: auto;
+}
+
+#particles-js {
+    height: 100%;
+    background-color:#1f1e29;
 }
