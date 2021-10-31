@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Khula', sans-serif !important;
+    background-color: #1f1e29 !important;
 }
 
 .bg-black {
@@ -80,4 +81,26 @@ body {
 .img-detail {
     width: 450px;
     height: auto;
+}
+
+.font-icon {
+    font-size: 50px;
+}
+
+a:hover {
+    color: #da5c71;
+}
+
+.padding-section {
+    padding: 5em 0;
+}
+
+.margin-footer {
+    margin: 20px 0;
+}
+
+/*Media queries 768px */
+@media (max-width: 768px) { 
+
+
 }
