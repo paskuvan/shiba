@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Khula:wght@400;800&display=swap');
 
 body {
-    font-family: 'Khula', sans-serif;
+    font-family: 'Khula', sans-serif !important;
+}
+
+.bg-black {
+    background-color: #1f1e29;
+
 }
 
 .title {
@@ -9,7 +14,7 @@ body {
     font-size: 48px;
 }
 
-.paragraphy {
+.paragraph {
     font-weight: 400;
     font-size: 18px;
 }
@@ -19,5 +24,10 @@ body {
 }
 
 .white {
-    color: white;
+    color: white !important;
+}
+
+.logo {
+    width: 90px;
+    height: auto;
 }
