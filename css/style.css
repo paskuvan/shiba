@@ -28,7 +28,7 @@ body {
 }
 
 .logo {
-    width: 90px;
+    width: 10%;
     height: auto;
 }
 
@@ -64,15 +64,9 @@ body {
     cursor: pointer
 }
 
-.activity-done {
-    font-weight: 600
-}
-
 .list-group li {
     margin-bottom: 12px
 }
-
-.list-group-item {}
 
 .list li {
     list-style: none;
@@ -83,7 +77,7 @@ body {
     background: #18171f;
 }
 
-.checkicon {
-    color: green;
-    font-size: 19px
+.img-detail {
+    width: 450px;
+    height: auto;
 }
