@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Khula:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
 
 body {
-    font-family: 'Khula', sans-serif !important;
+    font-family: 'Poppins', sans-serif !important;
     background-color: #1f1e29 !important;
 }
 
@@ -11,12 +11,17 @@ body {
 }
 
 .title {
-    font-weight: 800;
+    font-weight: 600;
     font-size: 33px;
 }
 
+.subtitle {
+    font-weight: 600;
+    font-size: 28px;
+}
+
 .paragraph {
-    font-weight: 400;
+    font-weight: 300;
     font-size: 18px;
 }
 
@@ -29,13 +34,14 @@ body {
 }
 
 .btn {
-    border-radius: 200px !important;
+    border-radius: 20px !important;
     padding: 10px 15px 10px 15px !important;
 }
 
 .img-uno {
     width: 100%;
     height: auto;
+    
 }
 
 .img-dos {
@@ -48,6 +54,18 @@ body {
     height: auto;
 }
 
+.btn-ml {
+    margin-left: 10px;
+}
+
+.btn-top {
+    margin-top: 54px;
+}
+
+.mt-6 {
+    margin-top: 6rem !important;
+}
+
 #particles-js {
     height: 100%;
     background-color:#1f1e29;
@@ -58,6 +76,8 @@ body {
     border-radius: 10px;
     padding: 25px 0 25px 0;
     margin-left: 10px;
+    position: relative;
+    left: 70px;
 }
 
 .icon-section-one {
@@ -81,9 +101,9 @@ body {
 
 .list li {
     list-style: none;
-    padding: 10px;
+    padding: 20px;
     border: 1px solid #18171f;
-    margin-top: 12px;
+    margin-top: 20px;
     border-radius: 5px;
     background: #18171f;
 }
@@ -95,6 +115,7 @@ body {
 .margin-footer {
     margin: 20px 0;
 }
+
 
 /*Media queries 768px */
 @media (max-width: 768px) { 
