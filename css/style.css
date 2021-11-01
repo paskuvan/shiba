@@ -78,6 +78,8 @@ body {
     margin-left: 10px;
     position: relative;
     left: 70px;
+    box-shadow:  5px 5px 10px #15141b,
+                 -5px -5px 10px #1b1a23;
 }
 
 .icon-section-one {
@@ -106,6 +108,8 @@ body {
     margin-top: 20px;
     border-radius: 5px;
     background: #18171f;
+    box-shadow:  5px 5px 10px #15141b,
+             -5px -5px 10px #1b1a23;
 }
 
 .padding-section {
@@ -120,5 +124,32 @@ body {
 /*Media queries 768px */
 @media (max-width: 768px) { 
 
+    .btn-ml {
+        margin-top: 12px;
+    }
+
+    .img-uno {
+        padding-top:20px;
+    }
+
+    .bg-icon {
+        left: 0px;
+    }
+
+    .coin2 {
+        margin-top: 3em;
+    }
+
+    .coin3 {
+        margin-top: 3em;
+    }
+
+    .btn-top {
+        margin-top:0px;
+    }
+
+    .btn-one {
+        margin: 20px 0;
+    }
 
 }
