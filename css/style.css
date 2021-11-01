@@ -152,4 +152,20 @@ body {
         margin: 20px 0;
     }
 
+    .img-dos {
+        margin-top: 35px;
+    }
+
+    .img-tres {
+        margin-bottom: 20px;
+    }
+
+    .btn-shiba {
+        margin-bottom: 30px;
+    }
+
+    .icon-discord {
+        margin-top: 10px;
+    }
+
 }
